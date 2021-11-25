@@ -1,0 +1,26 @@
+/* ----custom  starts----- */
+
+.TA-menu-chosen input {
+  color: orange;
+}
+.TA-menu-chosen button {
+  background-color: orange;
+}
+.TA-content table thead tr,
+.TA-content table tbody td:nth-child(1) {
+  background-color: orange;
+}
+.TA-menu-bar button {
+  background: radial-gradient(grey, black);
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 900px) {
+  .TA-content {
+    overflow-x: auto;
+  }
+}
+
+/* =----custom ends---- */

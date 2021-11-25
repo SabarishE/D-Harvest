@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Righteous&display=swap");
+.ARS-header,
+.OLX-header,
+.TA-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ARS-header-about,
+.OLX-header-about,
+.TA-header-about {
+  width: 60%;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  font-family: "Righteous", cursive;
+  color: rgb(48, 47, 47);
+}
+.ARS-header-logo,
+.OLX-header-logo,
+.TA-header-logo {
+  width: 250px;
+  height: 120px;
+  box-shadow: 0 0 8px 2px rgb(129, 129, 129);
+  box-sizing: border-box;
+}
+.ARS-header-logo img,
+.OLX-header-logo img,
+.TA-header-logo img {
+  width: 100%;
+  height: 100%;
+}
+.ARS-menu,
+.OLX-menu,
+.TA-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  margin: 2rem 1rem;
+  box-sizing: border-box;
+  box-shadow: 0 0 8px 2px grey;
+  background-color: white;
+  border-radius: 1rem 1rem 0 0;
+}
+.ARS-menu-chosen,
+.OLX-menu-chosen,
+.TA-menu-chosen {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.ARS-menu-chosen h3,
+.OLX-menu-chosen h3,
+.TA-menu-chosen h3 {
+  margin: 0 0.5rem;
+}
+.ARS-menu-chosen input,
+.OLX-menu-chosen input,
+.TA-menu-chosen input {
+  height: 2rem;
+  font-size: 1.5rem;
+  margin: 0 0.25rem;
+  text-align: center;
+}
+.ARS-menu-chosen button,
+.OLX-menu-chosen button,
+.TA-menu-chosen button {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ARS-menu-bar,
+.OLX-menu-bar,
+.TA-menu-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+.ARS-menu button,
+.OLX-menu button,
+.TA-menu button {
+  width: 6rem;
+  height: 2rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+.ARS-content,
+.OLX-content,
+.TA-content {
+  margin: auto;
+}
+
+.loader-div {
+  height: 3rem;
+  width: 128px;
+  margin: 1rem auto;
+}
+
+.ARS-content table,
+.OLX-content table,
+.TA-content table {
+  color: black;
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "PT Mono", monospace;
+}
+.ARS-content table thead tr,
+.ARS-content table tbody td:nth-child(1),
+.OLX-content table thead tr,
+.OLX-content table tbody td:nth-child(1),
+.TA-content table thead tr,
+.TA-content table tbody td:nth-child(1) {
+  color: white;
+  font-weight: bold;
+}
+
+.ARS-content table tbody,
+.OLX-content table tbody,
+.TA-content table tbody {
+  background-color: rgb(230, 230, 230);
+}
+.ARS-content table td,
+.ARS-content table th,
+.OLX-content table td,
+.OLX-content table th,
+.TA-content table td,
+.TA-content table th {
+  padding: 0.5rem 0;
+}
+p img {
+  width: 20px;
+  height: 20px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .ARS-content {
+    overflow-x: auto;
+  }
+
+  .ARS-header,
+  .OLX-header,
+  .TA-header {
+    flex-direction: column-reverse;
+  }
+  .ARS-header-about,
+  .OLX-header-about,
+  .TA-header-about {
+    width: 100%;
+  }
+  .ARS-header-logo,
+  .OLX-header-logo,
+  .TA-header-logo {
+    width: 90%;
+    height: 175px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .ARS-menu-chosen,
+  .OLX-menu-chosen,
+  .TA-menu-chosen {
+    justify-content: space-evenly;
+  }
+  .ARS-menu,
+  .OLX-menu,
+  .TA-menu {
+    margin: 2rem 0.25rem;
+  }
+}

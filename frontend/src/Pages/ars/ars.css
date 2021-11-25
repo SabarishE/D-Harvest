@@ -1,0 +1,18 @@
+.ARS-menu-chosen input {
+  color: rgb(255, 68, 0);
+}
+.ARS-menu-chosen button {
+  background-color: rgb(255, 68, 0);
+}
+
+.ARS-content table thead tr,
+.ARS-content table tbody td:nth-child(1) {
+  background-color: rgb(255, 68, 0);
+}
+
+.ARS-menu-bar button {
+  background: radial-gradient(grey, black);
+  border: none;
+  color: white;
+  border-radius: 4px;
+}

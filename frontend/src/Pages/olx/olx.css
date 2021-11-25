@@ -1,0 +1,25 @@
+/* ----custom  starts----- */
+
+.OLX-menu-chosen input {
+  color: rgb(119, 0, 255);
+}
+.OLX-menu-chosen button {
+  background-color: rgb(119, 0, 255);
+}
+.OLX-content table thead tr,
+.OLX-content table tbody td:nth-child(1) {
+  background-color: rgb(119, 0, 255);
+}
+
+.OLX-menu-bar button {
+  background: radial-gradient(grey, black);
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .OLX-content {
+    overflow-x: auto;
+  }
+}
